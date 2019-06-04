@@ -15,4 +15,14 @@ def begins_with_r(arr)
   return x
 end 
 
-def contain_a
+def contain_a(arr)
+  newArr=[]
+  counter = 0 
+  while ( counter < arr.size)
+    innerCounter = 0 
+    while ( innerCounter < arr[counter].size)
+      if arr[counter][innerCounter] == "a"
+        newArr.push(arr[counter])
+      end 
+      innerCounter = innerCounter + 1 
+end 
