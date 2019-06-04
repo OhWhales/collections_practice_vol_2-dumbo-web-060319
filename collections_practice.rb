@@ -44,3 +44,7 @@ def first_wa(arr)
     counter = counter + 1 
   end 
 end 
+
+def remove_non_strings(arr)
+  
+end 
