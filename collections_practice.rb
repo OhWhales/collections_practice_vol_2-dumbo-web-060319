@@ -1,7 +1,7 @@
 # your code goes here
 
 def begins_with_r(arr)
-  bool x = true 
+  x = true 
   
   counter = 0 
   while (counter < arr.size) 
