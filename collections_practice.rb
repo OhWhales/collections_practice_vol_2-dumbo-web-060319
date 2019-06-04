@@ -26,4 +26,7 @@ def contain_a(arr)
       end 
       innerCounter = innerCounter + 1 
     end 
+    counter = counter + 1 
+  end 
+  return newArr
 end 
