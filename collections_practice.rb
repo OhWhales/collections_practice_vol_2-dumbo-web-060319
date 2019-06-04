@@ -39,7 +39,7 @@ def first_wa(arr)
     newWord = newWord + x[0]
     newWord = newWord + x[1]
     if newWord == "wa"
-      return newWord
+      return arr[counter]
     end 
     counter = counter + 1 
   end 
