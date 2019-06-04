@@ -30,3 +30,15 @@ def contain_a(arr)
   end 
   return newArr
 end 
+
+def first_wa(arr)
+  counter = 0 
+  while ( counter < arr.size)
+    newWord=""
+    x=arr[counter]
+    newWord = newWord + x[0]
+    newWord = newWord + x[1]
+    if newWord == "wa"
+      return newWord
+    end 
+end 
