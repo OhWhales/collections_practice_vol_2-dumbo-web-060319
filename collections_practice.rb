@@ -25,4 +25,5 @@ def contain_a(arr)
         newArr.push(arr[counter])
       end 
       innerCounter = innerCounter + 1 
+    end 
 end 
