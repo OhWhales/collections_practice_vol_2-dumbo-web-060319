@@ -41,4 +41,5 @@ def first_wa(arr)
     if newWord == "wa"
       return newWord
     end 
+    counter = counter + 1
 end 
