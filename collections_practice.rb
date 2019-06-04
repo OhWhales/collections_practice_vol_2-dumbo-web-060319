@@ -14,3 +14,5 @@ def begins_with_r(arr)
   end 
   return x
 end 
+
+def contain_a
