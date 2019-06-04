@@ -9,8 +9,8 @@ def begins_with_r(arr)
     if z[0] != "r"
       x = false 
     end 
-    counter = counter + 1
-    return x 
+    counter = counter + 1 
     
   end 
+  return x
 end 
